@@ -1,0 +1,56 @@
+src/main/java/com/pedro/tpl/
+├── TplApplication.java
+├── common
+│   ├── exception
+│   │   ├── AuthFailed.java
+│   │   ├── ErrorCode.java
+│   │   ├── ExceptionHandler.java
+│   │   ├── FileExtension.java
+│   │   ├── FileTooLarge.java
+│   │   ├── FileTooMany.java
+│   │   ├── Forbidden.java
+│   │   ├── HttpException.java
+│   │   ├── HttpStatus.java
+│   │   ├── NotFound.java
+│   │   ├── Parameter.java
+│   │   └── Success.java
+│   ├── interceptor
+│   │   ├── AuthInterceptor.java
+│   │   └── RequestLogInterceptor.java
+│   ├── mybatis
+│   │   ├── LogicInterceptor.java
+│   │   └── Page.java
+│   ├── result
+│   │   ├── PageResult.java
+│   │   ├── RequestHelper.java
+│   │   ├── Result.java
+│   │   └── ResultGenerator.java
+│   ├── token
+│   │   └── JWT.java
+│   └── validator
+│       ├── Enum.java
+│       ├── EnumValidator.java
+│       ├── EqualField.java
+│       ├── EqualFieldValidator.java
+│       ├── Length.java
+│       ├── LengthValidator.java
+│       ├── ListIntPositive.java
+│       ├── LongListValidator.java
+│       ├── NotEmptyFields.java
+│       └── NotEmptyFieldsValidator.java
+├── configure
+│   ├── CommonConfig.java
+│   └── WebConfig.java
+└── v1
+    ├── controller
+    │   └── UserController.java
+    ├── mapper
+    │   └── UserMapper.java
+    ├── model
+    │   └── User.java
+    └── service
+        ├── IUserService.java
+        └── impl
+            └── UserServiceImpl.java
+
+14 directories, 39 files
